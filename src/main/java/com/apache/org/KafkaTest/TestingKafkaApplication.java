@@ -9,6 +9,7 @@ public class TestingKafkaApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(TestingKafkaApplication.class, args);
+		System.out.println("Welcome to Kafka");
 	}
 
 }
